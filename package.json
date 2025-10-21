@@ -1,0 +1,35 @@
+{
+  "name": "premium-real-estate",
+  "version": "1.0.0",
+  "description": "Professional real estate website with organized property categories and modern design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site - no build required'",
+    "start": "npx http-server . -p 8080",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "real-estate",
+    "property",
+    "website",
+    "responsive",
+    "modern",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Premium Real Estate",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/Premium-Real-Estate.git"
+  },
+  "homepage": "https://premium-real-estate.vercel.app",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
