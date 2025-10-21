@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Real Estate - Find Your Dream Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-home"></i> PremiumEstate</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#properties" class="nav-link">Properties</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Home</h1>
+            <p>Discover premium properties that match your lifestyle and budget</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search location, property type..." class="search-input">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Properties</p>
+            </div>
+            <div class="stat">
+                <h3>1000+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+                <h3>50+</h3>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Categories -->
+    <section id="properties" class="properties-section">
+        <div class="container">
+            <h2 class="section-title">Browse by Property Type</h2>
+            <p class="section-subtitle">Find the perfect space for your needs</p>
+            
+            <div class="property-categories">
+                <div class="category-card" data-category="studios">
+                    <div class="category-image">
+                        <!-- ADD STUDIO APARTMENT PHOTOS HERE -->
+                        <img src="images/studios/studio-main.jpg" alt="Studio Apartments" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Studio Apartments</h3>
+                            <p>Perfect for singles and young professionals</p>
+                            <span class="property-count">25+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="one-bedroom">
+                    <div class="category-image">
+                        <!-- ADD ONE BEDROOM APARTMENT PHOTOS HERE -->
+                        <img src="images/one-bedroom/one-bedroom-main.jpg" alt="One Bedroom Apartments" class="category-img">
+                        <div class="category-overlay">
+                            <h3>One Bedroom</h3>
+                            <p>Ideal for couples and small families</p>
+                            <span class="property-count">45+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="two-bedroom">
+                    <div class="category-image">
+                        <!-- ADD TWO BEDROOM APARTMENT PHOTOS HERE -->
+                        <img src="images/two-bedroom/two-bedroom-main.jpg" alt="Two Bedroom Apartments" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Two Bedroom</h3>
+                            <p>Comfortable living for small families</p>
+                            <span class="property-count">60+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="three-bedroom">
+                    <div class="category-image">
+                        <!-- ADD THREE BEDROOM APARTMENT PHOTOS HERE -->
+                        <img src="images/three-bedroom/three-bedroom-main.jpg" alt="Three Bedroom Apartments" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Three Bedroom</h3>
+                            <p>Spacious homes for growing families</p>
+                            <span class="property-count">80+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="four-bedroom">
+                    <div class="category-image">
+                        <!-- ADD FOUR BEDROOM HOUSE PHOTOS HERE -->
+                        <img src="images/four-bedroom/four-bedroom-main.jpg" alt="Four Bedroom Houses" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Four Bedroom</h3>
+                            <p>Large family homes with extra space</p>
+                            <span class="property-count">50+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="five-bedroom">
+                    <div class="category-image">
+                        <!-- ADD FIVE BEDROOM HOUSE PHOTOS HERE -->
+                        <img src="images/five-bedroom/five-bedroom-main.jpg" alt="Five Bedroom Houses" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Five Bedroom</h3>
+                            <p>Luxury homes for large families</p>
+                            <span class="property-count">30+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="six-bedroom">
+                    <div class="category-image">
+                        <!-- ADD SIX BEDROOM HOUSE PHOTOS HERE -->
+                        <img src="images/six-bedroom/six-bedroom-main.jpg" alt="Six Bedroom Houses" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Six Bedroom</h3>
+                            <p>Executive homes with premium features</p>
+                            <span class="property-count">20+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="villas">
+                    <div class="category-image">
+                        <!-- ADD VILLA PHOTOS HERE -->
+                        <img src="images/villas/villa-main.jpg" alt="Luxury Villas" class="category-img">
+                        <div class="category-overlay">
+                            <h3>Luxury Villas</h3>
+                            <p>Ultimate luxury living experience</p>
+                            <span class="property-count">15+ Properties</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="featured-properties">
+        <div class="container">
+            <h2 class="section-title">Featured Properties</h2>
+            <div class="properties-grid">
+                <!-- Property 1 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <!-- ADD FEATURED PROPERTY PHOTO HERE -->
+                        <img src="images/featured/property-1.jpg" alt="Luxury Apartment">
+                        <div class="price-tag">$850,000</div>
+                        <div class="property-badge">Featured</div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Modern Luxury Apartment</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Downtown District</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1,200 sq ft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <!-- ADD FEATURED PROPERTY PHOTO HERE -->
+                        <img src="images/featured/property-2.jpg" alt="Family House">
+                        <div class="price-tag">$1,200,000</div>
+                        <div class="property-badge">New</div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Spacious Family House</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Suburban Area</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2,500 sq ft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <!-- ADD FEATURED PROPERTY PHOTO HERE -->
+                        <img src="images/featured/property-3.jpg" alt="Luxury Villa">
+                        <div class="price-tag">$2,500,000</div>
+                        <div class="property-badge">Luxury</div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Exclusive Villa</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Premium Location</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 6 Beds</span>
+                            <span><i class="fas fa-bath"></i> 5 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 4,000 sq ft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose PremiumEstate?</h2>
+                    <p>With over 15 years of experience in the real estate market, we've helped thousands of families find their perfect homes. Our commitment to excellence and customer satisfaction sets us apart.</p>
+                    <div class="features-list">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Trusted Service</h4>
+                                <p>Licensed and insured professionals</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>24/7 Support</h4>
+                                <p>Always available when you need us</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h4>Best Prices</h4>
+                                <p>Competitive rates and no hidden fees</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- ADD ABOUT US PHOTO HERE -->
+                    <img src="images/about/team.jpg" alt="Our Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Real Estate Ave, City, State 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@premiumestate.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-home"></i> PremiumEstate</h3>
+                    <p>Your trusted partner in finding the perfect home. Quality service, premium properties, satisfied customers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Property Types</h4>
+                    <ul>
+                        <li><a href="#studios">Studios</a></li>
+                        <li><a href="#apartments">Apartments</a></li>
+                        <li><a href="#houses">Houses</a></li>
+                        <li><a href="#villas">Villas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@premiumestate.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PremiumEstate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
