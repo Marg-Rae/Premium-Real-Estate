@@ -1,28 +1,35 @@
-# Premium Real Estate Website
+# Premium Real Estate Website - Next.js
 
-## 🏠 Professional Real Estate Website Setup
+## 🏠 Modern Real Estate Website Built with Next.js
 
-This is a complete, modern real estate website with organized photo sections for different property types.
+This is a complete, professional real estate website built with Next.js, featuring organized photo sections for different property types, server-side rendering, and optimal performance.
 
-## 📁 Folder Structure
+## 📁 Next.js Project Structure
 
 ```
-Businnes Website/
-├── index.html          # Main website file
-├── styles.css          # Styling and design
-├── script.js           # Interactive functionality
-├── README.md           # This file
-└── images/             # Photo organization folder
-    ├── studios/        # Studio apartment photos
-    ├── one-bedroom/    # One bedroom apartment photos
-    ├── two-bedroom/    # Two bedroom apartment photos
-    ├── three-bedroom/  # Three bedroom house photos
-    ├── four-bedroom/   # Four bedroom house photos
-    ├── five-bedroom/   # Five bedroom house photos
-    ├── six-bedroom/    # Six bedroom house photos
-    ├── villas/         # Luxury villa photos
-    ├── featured/       # Featured property photos
-    └── about/          # About us / team photos
+Premium-Real-Estate/
+├── pages/
+│   ├── index.js        # Main homepage (React component)
+│   └── _app.js         # Next.js app wrapper
+├── components/         # Reusable React components
+├── styles/
+│   └── globals.css     # Global styles
+├── public/             # Static assets
+├── images/             # Photo organization folder
+│   ├── studios/        # Studio apartment photos
+│   ├── one-bedroom/    # One bedroom apartment photos
+│   ├── two-bedroom/    # Two bedroom apartment photos
+│   ├── three-bedroom/  # Three bedroom house photos
+│   ├── four-bedroom/   # Four bedroom house photos
+│   ├── five-bedroom/   # Five bedroom house photos
+│   ├── six-bedroom/    # Six bedroom house photos
+│   ├── villas/         # Luxury villa photos
+│   ├── featured/       # Featured property photos
+│   └── about/          # About us / team photos
+├── next.config.js      # Next.js configuration
+├── package.json        # Dependencies and scripts
+├── tsconfig.json       # TypeScript configuration
+└── vercel.json         # Vercel deployment config
 ```
 
 ## 📸 Where to Add Photos
@@ -106,22 +113,47 @@ Businnes Website/
 6. **Special features** - Pool, garden, garage, balcony
 7. **Neighborhood** - Street view, nearby amenities
 
-## 🚀 How to Launch the Website
+## 🚀 How to Run the Next.js Website
 
-1. **Open the website**: Double-click `index.html`
-2. **View in browser**: The website will open in your default browser
-3. **Test functionality**: Try the navigation, search, and contact form
-4. **Add photos**: Replace placeholder images with your real estate photos
+### Development Mode:
+```bash
+# Install dependencies
+npm install
 
-## 📱 Features Included
+# Start development server
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
+### Production Build:
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+### Static Export (for static hosting):
+```bash
+# Export as static site
+npm run build
+npm run export
+```
+
+## � Next.js Features Included
+
+- ✅ **Server-Side Rendering (SSR)** - Better SEO and performance
+- ✅ **Image Optimization** - Next.js automatic image optimization
 - ✅ **Responsive Design** - Works on desktop, tablet, and mobile
+- ✅ **React Components** - Modern component-based architecture
 - ✅ **Property Categories** - Organized by bedroom count and villas
-- ✅ **Search Functionality** - Property search capability
-- ✅ **Contact Form** - Lead capture form
+- ✅ **Search Functionality** - Interactive property search
+- ✅ **Contact Form** - React-powered lead capture form
 - ✅ **Smooth Animations** - Professional visual effects
-- ✅ **Modern Design** - Clean, professional appearance
-- ✅ **Fast Loading** - Optimized performance
+- ✅ **TypeScript Ready** - Type-safe development
+- ✅ **Fast Loading** - Next.js performance optimizations
+- ✅ **SEO Optimized** - Built-in SEO features
 
 ## 🛠️ Customization
 

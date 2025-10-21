@@ -724,6 +724,7 @@ img {
     display: block;
 }
 
+/* Next.js Image optimization */
 .category-img,
 .property-image img,
 .about-image img {
@@ -731,4 +732,29 @@ img {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+/* Mobile menu styles */
+.nav-menu.active {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }

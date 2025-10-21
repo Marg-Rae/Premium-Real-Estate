@@ -1,35 +1,43 @@
 {
   "name": "premium-real-estate",
   "version": "1.0.0",
-  "description": "Professional real estate website with organized property categories and modern design",
-  "main": "index.html",
+  "description": "Professional real estate website built with Next.js",
+  "private": true,
   "scripts": {
-    "dev": "npx http-server . -p 3000 -o",
-    "build": "echo 'Static site - no build required'",
-    "start": "npx http-server . -p 8080",
-    "deploy": "vercel --prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@next/font": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
   },
   "keywords": [
+    "nextjs",
     "real-estate",
     "property",
     "website",
     "responsive",
     "modern",
-    "html",
-    "css",
-    "javascript"
+    "react"
   ],
   "author": "Premium Real Estate",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/Premium-Real-Estate.git"
+    "url": "https://github.com/Marg-Rae/Premium-Real-Estate.git"
   },
-  "homepage": "https://premium-real-estate.vercel.app",
-  "devDependencies": {
-    "http-server": "^14.1.1"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "homepage": "https://premium-real-estate.vercel.app"
 }

@@ -1,13 +1,13 @@
-# 🚀 Vercel Deployment Guide
+# 🚀 Next.js Vercel Deployment Guide
 
-## Quick Deploy to Vercel
+## Quick Deploy to Vercel (Next.js)
 
 ### Method 1: One-Click Deploy (Recommended)
-1. Push your code to GitHub
+1. Push your Next.js code to GitHub
 2. Go to [vercel.com](https://vercel.com)
 3. Click "New Project"
 4. Import your GitHub repository `Premium-Real-Estate`
-5. Click "Deploy"
+5. Vercel automatically detects Next.js - Click "Deploy"
 
 ### Method 2: Vercel CLI
 ```bash
@@ -21,12 +21,14 @@ vercel
 vercel --prod
 ```
 
-## 📁 Deployment Configuration
+## 📁 Next.js Deployment Configuration
 
 ### Files for Vercel Deployment:
-- ✅ `vercel.json` - Vercel configuration
-- ✅ `package.json` - Project metadata
-- ✅ `index.html` - Main entry point
+- ✅ `vercel.json` - Vercel configuration for Next.js
+- ✅ `package.json` - Next.js dependencies and scripts
+- ✅ `next.config.js` - Next.js configuration
+- ✅ `pages/index.js` - Main React component
+- ✅ Next.js Image optimization enabled
 - ✅ Optimized images with Unsplash placeholders
 
 ### Vercel.json Configuration:
